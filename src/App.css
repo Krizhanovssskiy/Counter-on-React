@@ -1,0 +1,45 @@
+.container {
+    width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid goldenrod;
+    border-radius: 50px
+}
+
+.btn {
+    color: white;
+    font-size: 32px;
+    padding: 0 30px;
+}
+
+.btn-danger {
+    border: 1px solid darkblue;
+    background: darkblue;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    cursor: pointer;
+}
+
+.btn-success {
+    border: 1px solid red;
+    background: red;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    cursor: pointer;
+
+}
+
+.btn-secondary {
+    border: 1px solid gray;
+    background: grey;
+}
